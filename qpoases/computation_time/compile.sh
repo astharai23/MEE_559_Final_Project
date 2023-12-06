@@ -1,0 +1,1 @@
+g++ -I$DYNOPT_DIR -I$DYNOPT_DIR/qpoases/include/ -L$DYNOPT_DIR/qpoases test_main.c MPC_simplified_qpoases_prep.c  MPC_simplified_qpoases.c  $DYNOPT_DIR/qp_pcond.c  $DYNOPT_DIR/qp_qpOASES.c  $DYNOPT_DIR/qp_solver.c  $DYNOPT_DIR/math_lib.c -lqpoases -o test
